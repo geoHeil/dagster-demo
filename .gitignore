@@ -9,3 +9,6 @@ use_cases/use_case_b/dist
 use_cases/use-case-b-basemodule/build
 use_cases/use-case-b-basemodule/dist
 use_cases/use-case-b-basemodule/use_case_b.egg-info
+use_cases/use-case-b/build
+use_cases/use-case-b/dist
+use_cases/use-case-b/use_case_b.egg-info

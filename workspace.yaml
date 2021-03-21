@@ -10,7 +10,7 @@ load_from:
   # for the sake of simplicity, let`s keep it here though
   # pip install -e use_cases/use_case_b  # Run this in the `./` (root) directory.
   - python_package:
-        package_name: use_cases.use_case_b.repository_b
+        package_name: usecase_b.repository_b
         location_name: u_B
         # not specified, using default one
         #executable_path: venvs/path/to/dataengineering_spark_team/bin/python

@@ -8,7 +8,7 @@ def get_name(_):
 
 @solid
 def hello(context, name: str):
-    context.log.info('Hello, {name}! From B'.format(name=name))
+    context.log.info('Hello, {name}! from B'.format(name=name))
 
 
 @pipeline

@@ -29,7 +29,7 @@ dagit
 
 ## tutorial examples
 
-stuff from the dagster tutorial
+stuff from the dagster tutorial 
 
 ### 1: minimal first
 
