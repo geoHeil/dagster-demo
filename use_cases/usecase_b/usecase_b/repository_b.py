@@ -1,5 +1,7 @@
 from dagster import repository
-from hello_b import hello_b_pipeline
+#from hello_b import hello_b_pipeline
+# https://dagster.slack.com/archives/CCCR6P2UR/p1616344274120700?thread_ts=1616324022.117600&cid=CCCR6P2UR
+from .hello_b import hello_b_pipeline
 
 
 @repository
