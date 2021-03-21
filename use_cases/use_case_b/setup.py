@@ -12,7 +12,7 @@ if __name__ == "__main__":
             "License :: OSI Approved :: Apache Software License",
             "Operating System :: OS Independent",
         ],
-        #packages=find_packages(exclude=["test"]),
+        packages=find_packages(exclude=["test"]),
         install_requires=["dagster"],
         # extras_require={"full": ["seaborn", "scikit-learn"]},
     )
