@@ -1,0 +1,19 @@
+load_from:
+  - python_file:
+      relative_path: use_cases/use_case_a/repository_a.py
+      executable_path: "/usr/local/Caskroom/miniconda/base/envs/dagster-demo/bin/python"
+      working_directory: use_cases/use_case_a
+      location_name: u_A
+
+  # in principle could also be pip installed from an artifact repository
+  # i.e. no mono-repository required
+  # for the sake of simplicity, let`s keep it here though
+  # pip install -e use_cases/use_case_b  # Run this in the `./` (root) directory.
+  - python_package:
+        package_name: use_cases.use_case_b.repository_b
+        location_name: u_B
+        # not specified, using default one
+        #executable_path: venvs/path/to/dataengineering_spark_team/bin/python
+  #- python_file:
+  #    relative_path: use_cases/use_case_b/repository_b.py
+  #    working_directory: use_cases/use_case_b

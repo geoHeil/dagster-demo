@@ -1,0 +1,7 @@
+.idea
+dagster_home/history
+dagster_home/schedules
+use_cases/__pycache__
+use_cases/use_case_a/__pycache__
+use_cases/use_case_b/__pycache__
+use_cases/use_case_b/use_case_b.egg-info

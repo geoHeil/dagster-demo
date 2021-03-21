@@ -1,0 +1,30 @@
+# apply via
+# conda env create -f environment.yml
+# conda activate dagster-demo
+# conda remove --name dagster-demon --all
+name: dagster-demo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - pyarrow
+  - python>=3.8
+  - pip
+  - jupyterlab
+  - nb_conda
+  - pyspark
+  - koalas
+  - seaborn
+  - sqlalchemy
+  - sqlalchemy-utils
+  - asyncpg
+  - pip:
+      - dagster
+      - dagit
+      - dagstermill
+      - dagster-cron
+      - dagster-postgres
+      - dagster-pyspark
+      - dagster-slack
